@@ -1,0 +1,27 @@
+{
+  "title": "Herramientas GNU - Examen Interactivo Corte 2",
+  "description": "CLI Linux y Comandos básicos Linux",
+  "difficulty": "beginner",
+  "time": "50 minutes",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "steps": [
+      {
+        "title": "Pregunta 1 - Crear y copiar",
+        "text": "step1.md"
+      }
+    ]
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mBienvenido a la parte Practica del parcial.\r\nCuanto termine el paso 3, ejecute verificar.sh, y por favor TOME CAPTURA DE PANTALLA!!!!\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "bash"
+  }
+}
