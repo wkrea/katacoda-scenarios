@@ -5,17 +5,43 @@
   "time": "50 minutes",
   "details": {
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "credits": "https://github.com/wkrea",
+      "courseData": "background.sh",
+      "code": "foreground.sh"
     },
     "finish": {
-      "text": "finish.md"
+      "text": "finish.md",
+      "courseData": "background.sh",
+      "credits": "https://github.com/wkrea/katacoda-scenarios"
     },
     "steps": [
       {
         "title": "Pregunta 1 - Crear y copiar",
-        "text": "step1.md"
+        "text": "step1.md",
+        "courseData": "p1-background.sh",
+        "code": "p1-foreground.sh"
+      },
+      {
+        "title": "Pregunta 2 - Trabajando archivos y directorios",
+        "text": "Pregunta2.md",
+        "courseData": "p2-background.sh",
+        "code": "p2-foreground.sh"
+      },
+      {
+        "title": "Pregunta 3 - Instalando Software",
+        "text": "Pregunta3.md",
+        "code": "p3-foreground.sh"
       }
-    ]
+    ],
+    "assets": {
+      "host01": [
+          {"file": "verificar.sh", "target": "/usr/local/bin/verificar.sh", "chmod": "+x"}
+      ],
+      "client": [
+        {"file": "verificar.sh", "target": "/usr/local/bin", "chmod": "+x"}
+      ]
+    }
   },
   "environment": {
     "uilayout": "terminal",
