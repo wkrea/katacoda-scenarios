@@ -36,10 +36,10 @@
     ],
     "assets": {
       "host01": [
-          {"file": "verificar.sh", "target": "/usr/bin/verificar.sh", "chmod": "+x"}
+          {"file": "./assets/verificar.sh", "target": "/usr/bin/verificar.sh", "chmod": "+x"}
       ],
       "client": [
-        {"file": "verificar.sh", "target": "/usr/bin", "chmod": "+x"}
+        {"file": "./assets/verificar.sh", "target": "/usr/bin", "chmod": "+x"}
       ]
     }
   },
